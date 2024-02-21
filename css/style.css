@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+}
+
+html {
+  font-size: 10px;
+}
+
+
+@keyframes fontChange1 {
+  5% {
+    font-family: "Amatic SC";
+    font-size: 6rem;
+  }
+  10% {
+    font-family: "Bebas Neue";
+  }
+  15% {
+    font-family: "Bodoni Moda";
+  }
+  20% {
+    font-family: "Caveat Brush";
+  }
+  25% {
+    font-family: "Concert One";
+    font-size: 3rem;
+  }
+  30% {
+    font-family: "Fredoka";
+  }
+  35% {
+    font-family: "Indie FLower";
+  }
+  40% {
+    font-family: "Josefin Slab";
+    font-size: 6rem;
+  }
+  45% {
+    font-family: "Kode Mono";
+  }
+  50% {
+    font-family: "Medieval Sharp";
+  }
+  55% {
+    font-family: "Times New Roman";
+  }
+  60% {
+    font-family: "Oswald";
+    font-size: 3rem;
+  }
+  65% {
+    font-family: "Pacifico";
+  }
+  70% {
+    font-family: "Protest Guerrilla";
+  }
+  75% {
+    font-family: "Indie FLower";
+    font-size: 3rem;
+  }
+  80% {
+    font-family: "Shadows Into Light";
+  }
+  85% {
+    font-family: "Silkscreen";
+    font-size: 6rem;
+  }
+  90% {
+    font-family: "Sixtyfour";
+  }
+  95% {
+    font-family: "Space Grotesk";
+    font-size: 6rem;
+  }
+  100% {
+    font-family: "Special Elite";
+  }
+}
+
+@keyframes fontChange2 {
+  5% {
+    font-family: fantasy;
+    opacity: 0;
+
+  }
+  10% {
+    font-family: "Oswald";
+    font-size: 6rem;
+    opacity: 0;
+  }
+  15% {
+    font-family: "Pacifico";
+    opacity: 0;
+  }
+  20% {
+    font-family: "Protest Guerrilla";
+    font-size: 3rem;
+    opacity: 1;
+  }
+  25% {
+    font-family: "Indie FLower";
+    opacity: 1;
+  }
+  30% {
+    font-family: "Shadows Into Light";
+    opacity: 1;
+  }
+  35% {
+    font-family: "Silkscreen";
+    font-size: 6rem;
+    opacity: 1;
+  }
+  40% {
+    font-family: "Sixtyfour";
+    opacity: 1;
+  }
+  45% {
+    font-family: "Space Grotesk";
+    font-size: 3rem;
+    opacity: 1;
+  }
+  50% {
+    font-family: "Special Elite";
+    opacity: 1;
+  }
+  55% {
+    font-family: "Amatic SC";
+    opacity: 1;
+  }
+  60% {
+    font-family: "Bebas Neue";
+    opacity: 1;
+  }
+  65% {
+    font-family: "Bodoni Moda";
+    font-size: 6rem;
+    opacity: 1;
+  }
+  70% {
+    font-family: "Caveat Brush";
+    opacity: 1;
+  }
+  75% {
+    font-family: "Concert One";
+    font-size: 3rem;
+    opacity: 1;
+  }
+  80% {
+    font-family: "Fredoka";
+    opacity: 1;
+  }
+  85% {
+    font-family: "Indie FLower";
+    opacity: 1;
+  }
+  90% {
+    font-family: "Josefin Slab";
+    opacity: 1;
+  }
+  95% {
+    font-family: "Kode Mono";
+    opacity: 1;
+  }
+  100% {
+    font-family: "Medieval Sharp";
+    font-size: 6rem;
+    opacity: 1;
+  }
+}
+
+@keyframes fontChange3 {
+  5% {
+    font-family: "Titillium Web";
+    opacity: 0;
+  }
+  10% {
+    font-family: "Protest Revolution";
+    opacity: 0;
+  }
+  15% {
+    font-family: "Silkscreen";
+    opacity: 0;
+  }
+  20% {
+    font-family: "Josefin Slab";
+    font-size: 6rem;
+    opacity: 0;
+  }
+  25% {
+    font-family: "Sixtyfour";
+    font-size: 3rem;
+    opacity: 0;
+  }
+  30% {
+    font-family: "Pacifico";
+    opacity: 1;
+  }
+  35% {
+    font-family: "Kode Mono";
+    opacity: 1;
+  }
+  40% {
+    font-family: "Medieval Sharp";
+    font-size: 6rem;
+    opacity: 1;
+  }
+  45% {
+    font-family: "Indie FLower";
+    opacity: 1;
+  }
+  50% {
+    font-family: "Times New Roman";
+    font-size: 3rem;
+    opacity: 1;
+  }
+  55% {
+    font-family: "Caveat Brush";
+    opacity: 1;
+  }
+  60% {
+    font-family: "Sixtyfour";
+    font-size: 6rem;
+    opacity: 1;
+  }
+  65% {
+    font-family: "Kode Mono";
+    opacity: 1;
+  }
+  70% {
+    font-family: "Shadows Into Light";
+    opacity: 1;
+  }
+  75% {
+    font-family: "Amatic SC";
+    font-size: 3rem;
+    opacity: 1;
+  }
+  80% {
+    font-family: "Bodoni Moda";
+    opacity: 1;
+  }
+  85% {
+    font-family: "Fredoka";
+    opacity: 1;
+  }
+  90% {
+    font-family: fantasy;
+    font-size: 6rem;
+    opacity: 1;
+  }
+  95% {
+    font-family: "Bebas Neue";
+    opacity: 1;
+  }
+  100% {
+    font-family: "Pacifico";
+    opacity: 1;
+  }
+}
+
+@keyframes fontChange4 {
+  5% {
+    font-family: "Caveat Brush";
+    opacity: 0;
+  }
+  10% {
+    font-family: "Sixtyfour";
+    opacity: 0;
+  }
+  15% {
+    font-family: "Kode Mono";
+    opacity: 0;
+  }
+  20% {
+    font-family: "Shadows Into Light";
+    font-size: 6rem;
+    opacity: 0;
+  }
+  25% {
+    font-family: "Amatic SC";
+    opacity: 0;
+  }
+  30% {
+    font-family: "Bodoni Moda";
+    font-size: 3rem;
+    opacity: 0;
+  }
+  35% {
+    font-family: "Fredoka";
+    opacity: 0;
+  }
+  40% {
+    font-family: fantasy;
+    opacity: 1;
+  }
+  45% {
+    font-family: "Bebas Neue";
+    font-size: 6rem;
+    opacity: 1;
+  }
+  50% {
+    font-family: "Pacifico";
+    opacity: 1;
+  }
+  55% {
+    font-family: "Titillium Web";
+    font-size: 3rem;
+    opacity: 1;
+  }
+  60% {
+    font-family: "Protest Revolution";
+    opacity: 1;
+  }
+  65% {
+    font-family: "Silkscreen";
+    opacity: 1;
+  }
+  70% {
+    font-family: "Josefin Slab";
+    opacity: 1;
+  }
+  75% {
+    font-family: "Sixtyfour";
+    opacity: 1;
+  }
+  80% {
+    font-family: "Pacifico";
+    font-size: 6rem;
+    opacity: 1;
+  }
+  85% {
+    font-family: "Kode Mono";
+    opacity: 1;
+  }
+  90% {
+    font-family: "Medieval Sharp";
+    font-size: 3rem;
+    opacity: 1;
+  }
+  95% {
+    font-family: "Indie FLower";
+    opacity: 1;
+  }
+  100% {
+    font-family: fantasy;
+    font-size: 3rem;
+    opacity: 1;
+  }
+}
+
+.word {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 8px #fff;
+  filter: blur(1px);
+}
+
+.letter {
+  flex-basis: 130px;
+  text-align: center;
+  font-size: 4rem;
+  opacity: 0;
+}
+
+.letter:nth-of-type(1) {
+  opacity: 1;
+  font-family: fantasy;
+  animation-name: fontChange1;
+  animation-duration: 3s;
+  /* animation-iteration-count: 4; */
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  /* animation: fadeIn 5s; */
+}
+
+.letter:nth-of-type(2) {
+  font-family: Verdana;
+  animation-name: fontChange2;
+  animation-duration: 3s;
+  /* animation-iteration-count: 4; */
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+.letter:nth-of-type(3) {
+  font-family: "Caveat Brush";
+  animation-name: fontChange3;
+  animation-duration: 3s;
+  /* animation-iteration-count: 4; */
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+.letter:nth-of-type(4) {
+  font-family: cursive;
+  animation-name: fontChange4;
+  animation-duration: 3s;
+  /* animation-iteration-count: 4; */
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
